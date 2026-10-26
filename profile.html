@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    
+<body>
+     <nav >
+    <div class="logo">🎟️ MovieTickets</div>
+
+    <div class="nav-links">
+         <a class="active" href="front.html">Home</a>
+         <a href="movie.html">movie</a>
+
+      
+         
+        
+    </div>
+</nav>
+
+    <div class="profile-container">
+
+        <div class="profile-header">
+            <img src="images/profile.png" alt="Profile Photo">
+
+            <div>
+                <h1>Hamsa Reddy</h1>
+                <p>Movie Lover</p>
+                <p>Gender:female</p>
+                <p>dd-mm-yy:</p>
+                <p>Email: hamsa@gmail.com</p>
+                <button>Edit Profile</button>
+            </div>
+        </div>
+
+        
+
+        <div class="details">
+            <h2>Personal Information</h2>
+
+            <p><b>Full Name:</b> Hamsa Reddy</p>
+            <p><b>Email:</b> hamsa@gmail.com</p>
+            <p><b>Phone:</b> 9876543210</p>
+            <p><b>Location:</b> Tamil Nadu, India</p>
+        </div>
+
+      
+
+        <div class="bookings">
+            <h2>My Bookings</h2>
+
+            <div class="movie">
+                <div>
+                    <img src="images/anbe dayana.jpeg">
+                </div>
+                <div class="details">
+
+               
+               
+                    <h3>Anbe Diana</h3><br>
+                    <p>Date: 17 October 2026</p><br>
+                    <p>Time: 6:30 PM</p><br>
+                    <p>Seats: A4, A5</p><br>
+                </div>
+                <div>
+                
+            
+        </div>
+        
+
+
+    </div>
+    
+        <div class="bookings">
+            
+
+            <div class="movie">
+                <div>
+                    <img src="images/doroty/movie.jpg">
+                </div>
+                <div class="details">
+
+               
+               
+                    <h3>Dorothy</h3><br>
+                    <p>Date: 23 October 2026</p><br>
+                    <p>Time: 9:30 PM</p><br>
+                    <p>Seats: A4</p><br>
+                </div>
+                <div>
+                
+            
+        </div>
+        
+
+
+    </div>
+    
+        <div class="bookings">
+            
+
+            <div class="movie">
+                <div>
+                    <img src="images/janayagan.jpeg">
+                </div>
+                <div class="details">
+
+               
+               
+                    <h3>Janayagan</h3><br>
+                    <p>Date: 1 October 2026</p><br>
+                    <p>Time: 3:30 PM</p><br>
+                    <p>Seats:  A5</p><br>
+                </div>
+                <div>
+                
+            
+        </div>
+        
+
+
+    </div>
+    
+    
+
+</body>
+</html>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:black;
+    color:white;
+}
+
+
+.navbar {
+    background-color:black navy;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar h2 {
+    margin-right: auto;
+}
+
+.navbar h2 span {
+    color: red;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+
+.profile-container {
+    width: 75%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color:black;
+    border-radius: 10px;
+}
+
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.profile-header img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+ 
+  nav {
+    height: 70px;
+     background:black navy;
+       display: flex;
+      align-items: center;
+     justify-content: space-between;
+     padding: 0 50px;
+     color: white;
+    width: 100%;
+}
+
+.profile-header h1 {
+    margin-bottom: 8px;
+}
+
+.profile-header p {
+    color: gray;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.details {
+    padding: 15px 0;
+}
+
+.details h2,
+.bookings h2 {
+    color: red;
+}
+
+.details p {
+    padding:0;
+      font-size: 20px;
+}
+
+
+.movie {
+    display: flex;
+    gap:20px;
+    align-items: center;
+    padding: 15px;
+    background-color:black;
+    border-radius: 15px;
+}
+
+.movie img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.movie h3 {
+    margin-top:none;
+}
+.nav-links{
+    color: white;
+    text-decoration: none;
+    
+}
+  nav {
+    height: 70px;
+     background:black navy;
+       display: flex;
+      align-items: center;
+     justify-content: space-between;
+     padding: 0 50px;
+     color: white;
+    width: 100%;
+}
+
+ .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ff1681;
+        }
+
+  .nav-links {
+     display: flex;
+    align-items: center;
+      gap:10px;
+     width: 100%;
+    
+}
+
+.nav-links a {
+     color: white;
+       text-decoration: none;
+    padding: 10px 5px;
+    margin-left: 10%;
+}
+
+.nav-links a.active {
+    border-bottom: 3px solid #1877f2;
+}
+
+
+
+
+
+
+</style>

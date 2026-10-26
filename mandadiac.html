@@ -1,0 +1,197 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieTickets - Dorothy</title>
+    <link rel="stylesheet" href="2shtyle.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 25px;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .summaryhead{
+            font-size: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 35px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ff1681;
+        }
+
+
+        .movie-section {
+            display: grid;
+            grid-template-columns: 120px 1fr 300px;
+            gap: 20px;
+            align-items: start;
+        }
+
+        .movie-title {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        .summary-heading {
+            font-size: 25px;
+            margin: 45px 0 0;
+        }
+
+        .summary {
+            margin: 45px 0 0;
+            line-height: 1.35;
+        }
+
+        .main-actor {
+            width: 100%;
+            margin: none;
+            height: 200px;
+
+        }
+
+        .main-actor img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        /* Actor name displayed below the image */
+        .main-actor h2 {
+            margin: 8px 0 3px;
+            font-size: 23px;
+        }
+
+        .main-actor p {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .actors {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top:10px;
+            height: 350px;
+        }
+
+        .actor-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .actor-card h2 {
+            margin: 7px 0 2px;
+            font-size: 23px;
+        }
+
+        .actor-card p {
+            margin: 0;
+            font-weight: bold;
+        }
+        .actor-card{
+            margin-bottom: none;
+        }
+
+   
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">🎟️ MovieTickets</div>
+
+        <div class="nav-links">
+            <a href="front.html">Home</a>
+            <a href="movie.html">Movies</a>
+            <a href="profile.html">Profile</a>
+        </div>
+    </div>
+
+    <h1 class="movie-title">Dorothy</h1>
+
+    <div class="movie-section">
+
+        
+           <b class="summaryhead"> summary about movie</b>
+        
+
+        <p class="summary">
+            <strong>Movie Summary</strong>
+            Set in 1995 near Madurai, Tamil Nadu, the story follows two inseparable childhood friends, Karthi and Subbu. Karthi is from an oppressed caste, while Subbu belongs to a wealthy, dominant-caste family. Subbu’s family is led by his horrific, domineering father, Viraa, who enforces rigid rules of caste honor, machismo, and violent brotherhood. While Karthi grows into a "tough guy" to survive, Subbu grows increasingly sensitive, vulnerable, and deeply disconnected from his family's violent expectations.
+
+Part 2: The Arrival of Dorothy
+
+The harsh, testosterone-fueled status quo changes entirely when Subbu's older brother gets married, bringing a compassionate woman named Dorothy into the household. Dorothy acts as a quiet catalyst. Her empathy and kindness open Subbu's eyes, giving him the language to understand his own hidden identity. Inspired by her, Subbu vanishes from the village to escape his family's suffocating environment and transitions into a transgender woman.
+        </p>
+
+        <div class="main-actor">
+            <img src="images/MANDADI/soori.webp" alt="Keerthy Suresh">
+
+            <h2>Soori</h2>
+            <p>Character:Mandaadi muthukaali(kali)</p>
+        </div>
+
+    </div>
+
+    <div class="actors">
+
+        <div class="actor-card">
+            <img src="images/MANDADI/mahima nambia.webp" alt="Jeeva">
+            <h2>Mahima nambiar</h2>
+            <p>Character: Angek rakkamma</p>
+        </div>
+
+        <div class="actor-card">
+            <img src="images/MANDADI/ravindar.webp" alt="Rishikanth">
+            <h2>Ravindra vijay</h2>
+            <p>Character:Singaram</p>
+        </div>
+
+        <div class="actor-card">
+            <img src="images/MANDADI/satharaj.webp" alt="Sanath">
+            <h2>sathyaraj</h2>
+            <p>Character:Machanumi</p>
+        </div>
+
+        <div class="actor-card">
+            <img src="images/MANDADI/suhas.webp" alt="Soundararaja">
+            <h2>suhas</h2>
+            <p>Character: Kalai</p>
+        </div>
+
+    </div>
+    <div class="click">
+                           
+                          <center> <button onclick="selectMovie('youth')">
+                   <a href="contact.html">click heare for contact</a>
+                </button>
+                </div>
+            </center>
+
+
+</body>
+</html>
