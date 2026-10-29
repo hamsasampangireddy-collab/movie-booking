@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieTickets -Love Today</title>
+    <link rel="stylesheet" href="2shtyle.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">🎟️ MovieTickets</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="movie.html">Movies</a>
+            <a href="profile.html">Profile</a>
+        </div>
+    </div>
+
+    <h1 class="movie-title">Love Today</h1>
+
+    <div class="movie-section">
+
+        
+           <b class="summaryhead"> summary about movie</b>
+        
+
+        <p class="summary">
+            <strong>Movie Summary</strong>
+           The story follows a young, tech-savvy couple, Uthaman Pradeep and Nikitha Shastri, who want to get married. However, Nikitha’s suspicious father, Venu Sastri, proposes a strict challenge before giving his blessing: the couple must exchange their mobile phones for 24 hours.
+What starts as a seemingly simple test quickly descends into hilarious chaos and high-stakes drama. As they dig through each other’s WhatsApp messages, Instagram DMs, and call histories, hidden secrets, past crushes, and double identities are exposed. The film explores whether modern relationships can survive absolute digital transparency.
+        </p>
+
+        <div class="main-actor">
+            <img src="images/love/pradjheep.jpg" alt="1">
+
+            <h2>Pradeep Ranganathan</h2>
+            <p>Character:Uthaman Pradeep</p>
+        </div>
+
+    </div>
+
+    <div class="actors">
+
+        <div class="actor-card">
+            <img src="images/love/ilvan.jpg" alt="1">
+            <h2>Ivana</h2>
+            <p>Character:Nikitha Shastri </p>
+        </div>
+
+        <div class="actor-card">
+            <img src="images/love/radhika.webp" alt="1">
+            <h2>Radhika Sarathkumar </h2>
+            <p>Character:Saraswathi</p>
+        </div>
+
+        <div class="actor-card">
+            <img src="images/love/sathyraj.jpg" alt="1">
+
+            
+            <h2>Sathyaraj</h2>
+            <p>Character:Venu Sastri </p>
+        </div>
+
+        <div class="actor-card">
+            <img src="images/love/yogi badu.jpg" alt="Soundararaja">
+            <h2>Yogi Babu </h2>
+            <p>Character:Dr.Yogi</p>
+        </div>
+
+    </div>
+    <div class="click">
+                           
+                          <center> <button onclick="selectMovie('youth')">
+                   <a href="contact.html">click here for contact</a>
+                </button>
+                </div>
+            </center>
+
+
+</body>
+</html>
+<style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 25px;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .summaryhead{
+            font-size: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 35px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ff1681;
+        }
+
+
+        .movie-section {
+            display: grid;
+            grid-template-columns: 120px 1fr 300px;
+            gap: 20px;
+            align-items: start;
+        }
+
+        .movie-title {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        .summary-heading {
+            font-size: 25px;
+            margin: 45px 0 0;
+        }
+
+        .summary {
+            margin: 45px 0 0;
+            line-height: 1.35;
+        }
+
+        .main-actor {
+            width: 100%;
+            margin: none;
+            height: 200px;
+
+        }
+
+        .main-actor img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        /* Actor name displayed below the image */
+        .main-actor h2 {
+            margin: 8px 0 3px;
+            font-size: 23px;
+        }
+
+        .main-actor p {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .actors {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top:10px;
+            height: 350px;
+        }
+
+        .actor-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .actor-card h2 {
+            margin: 7px 0 2px;
+            font-size: 23px;
+        }
+
+        .actor-card p {
+            margin: 0;
+            font-weight: bold;
+        }
+        .actor-card{
+            margin-bottom: none;
+        }
+
+   
+    </style>

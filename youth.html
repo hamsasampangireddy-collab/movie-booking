@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieTickets -youth</title>
+    <link rel="stylesheet" href="2shtyle.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">🎟️ MovieTickets</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="movie.html">Movies</a>
+            <a href="profile.html">Profile</a>
+        </div>
+    </div>
+
+    <h1 class="movie-title">youth</h1>
+
+    <div class="movie-section">
+
+        
+           <b class="summaryhead"> summary about movie</b>
+        
+
+        <p class="summary">
+            <strong>Movie Summary</strong>
+            • The Plot: Set in a nostalgic mid-2010s backdrop, a carefree 15-year-old student named Praveen stumbles through high school with one singular mission: finding true love before his school days end. His chaotic crushes and family clashes anchor this relatable comedy-drama.
+• Key Actors: Ken Karunas stars as the misguided yet charming lead Praveen. The film features breakthrough leading performances from rising actress Anishma Anilkumar (as the class leader Kanakavalli), Meenakshi Dinesh, and Hindi television favorite Priyanshi Yadav in her highly anticipated Tamil cinema debut.
+      </p>  <div class="main-actor">
+            <img src="images/youth/karun.webp" alt="Keerthy Suresh">
+
+            <h2>Keerthy Ken Karunas</h2>
+            <p>Character:Praveen</p>
+        </div>
+
+    </div>
+
+    <div class="actors">
+
+        <div class="actor-card">
+            <img src="images/youth/anisha.webp" alt="Jeeva">
+            <h2>Anishma Anilkumar</h2>
+            <p>Character:Kanagavalli</p>
+        </div>
+
+        <div class="actor-card">
+            <img src="images/youth/devadsri.webp" alt="Rishikanth">
+            <h2>Devadarshin</h2>
+            <p>Character: Saroja</p>
+        </div>
+
+        <div class="actor-card">
+            <img src="images/youth/priyanshi.jpg" alt="Sanath">
+            <h2>Priyanshi Yadav</h2>
+            <p>Character:Sonal</p>
+        </div>
+
+        <div class="actor-card">
+            <img src="images/youth/suraj.webp" alt="Soundararaja">
+            <h2>Suraj </h2>
+            <p>Character:Unnikrishnan </p>
+        </div>
+
+    </div>
+    <div class="click">
+                           
+                          <center> <button onclick="selectMovie('youth')">
+                   <a href="contact.html">click here for contact</a>
+                </button>
+                </div>
+            </center>
+
+
+</body>
+</html>
+<style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 25px;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .summaryhead{
+            font-size: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 35px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ff1681;
+        }
+
+
+        .movie-section {
+            display: grid;
+            grid-template-columns: 120px 1fr 300px;
+            gap: 20px;
+            align-items: start;
+        }
+
+        .movie-title {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        .summary-heading {
+            font-size: 25px;
+            margin: 45px 0 0;
+        }
+
+        .summary {
+            margin: 45px 0 0;
+            line-height: 1.35;
+        }
+
+        .main-actor {
+            width: 100%;
+            margin: none;
+            height: 200px;
+
+        }
+
+        .main-actor img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+       
+        .main-actor h2 {
+            margin: 8px 0 3px;
+            font-size: 23px;
+        }
+
+        .main-actor p {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .actors {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top:10px;
+            height: 350px;
+        }
+
+        .actor-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .actor-card h2 {
+            margin: 7px 0 2px;
+            font-size: 23px;
+        }
+
+        .actor-card p {
+            margin: 0;
+            font-weight: bold;
+        }
+        .actor-card{
+            margin-bottom: none;
+        }
+
+   
+    </style>
